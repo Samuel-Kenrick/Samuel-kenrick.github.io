@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kåren</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hover-orange"><img src="../logo.png" alt="tf logga" width="30px" height="30px"></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-orange">Programmet</a>
+    <a href="../Sektion/main.html" class="w3-bar-item w3-button w3-hide-small w3-hover-orange">Sektionen/kåren</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-orange">Studentikosa plagg</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-orange">Festerier</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-orange">Bilder/Videos</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-orange">Andra föreningar/programs länkar</a>
+  </div>
+</div>
+<!--
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>-->
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-orange">Festerier som finns och som fanns</h1>
+      <p>Här har jag samlat listor från Superfesteriets hemsida samt länkar till diverse festerier som funnits<br><br>
+          
+        <h2 class="w3-text-teal">Festerier som finns kvar:</h2>
+        <table width="100%" border="0" cellpadding="7">
+            <tbody>
+              <tr valign="top"> 
+              <td height="100" width="200">Piraya Est. 1985<br><font face="garamond, Times New Roman, serif">
+                <a href="https://web.archive.org/web/19971014111146/http://www.ts.umu.se/~piraya/" target="_blank">Gamla hemsidan </a><br>
+                <a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Epiraya/" target="_blank">Nyare hemsidan</a><br></font></td>
+              <td align="center" valign="top" height="100" width="150"><img src="../Img/newpiraya2.gif" width="150" height="150"></td>
+              <td height="100" width="400">Tekniska Datavetare (Numera C och DV)<br><font face="garamond, Times New Roman, serif">Fler bilder finns på äldre versioner av acc hemsidan. Titta gärna igenom flera års snapshots.</font></td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="200"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Eond" target="_blank">OND Est. 1993</a></td>
+              <td align="center" valign="top" height="100" width="150"><img src="../Img/ond_logo.gif" width="150" height="150"></td>
+              <td height="100" width="400">Datavetare, Fysiker och Matematiker (Numera Life Science)</td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="200"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Efaust" target="_blank">Faust Est. 1992</a></td>
+              <td align="center" valign="top" height="100" width="150"><img src="../Img/faust_gubbe1.gif" width="150" height="190" hspace="6"></td>
+              <td height="100" width="400">Tekniska Fysiker, Energiteknik och Öppen Ingång<br>
+                <font face="garamond, Times New Roman, serif">Från början grundades "Fysiks Klubbmästeri" 1992 för tekniska fysikerna. Efter något/några år döptes den om till feSTeriet och blev för hela Teknologsektionen. <br> 
+                    Dock någonstans kring '97 döptes den om till Faust och återigen bara blev för de tekniska fysikerna.<br> När F-sektionen blev till och Civ. Energiteknik samt Civ. Öppen ingång började blev de också del av Fausts målgrupp.</font>
+              </td>
+            </tr>
+            <tr valign="top"> 
+              <td height="200" width="200">Homer Est. 1998(?)</td>
+              <td align="center" valign="top" height="100" width="150"><img src="/web/20010714025735im_/http://www.ntk.umu.se/super/agenda/logos/homer.gif" target="_blank" width="150" height="100"></td>
+              <td height="100" width="400">Energiingenjörer/Maskiningenjörer (Numera heter det Energiteknik och inte Energiingenjör)</td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="150"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Eutb" target="_blank">Mamma 
+                Muu</a></td>
+              <td align="center" valign="top" height="100" width="150"><img src="../Img/muu.gif" width="140" height="190"></td>
+              <td height="100" width="400">Tekniska Biologer (Numera Bioteknik)</td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="150">
+          <a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/~cyber6" target="_blank">Cyber6 Est. 1998</a></td>
+              <td align="center" height="100" valign="top" width="150">[Ingen Bild]</td>
+              <td height="100" width="400">Dataingenjörer (Numera elektronik och datateknik/medicinsk teknik)</td>
+            </tr>
+          </tbody></table>
+
+          <h2 class="w3-text-teal">Festerier som inte finns kvar:</h2>
+        <table width="100%" border="0" cellpadding="7">
+            <tbody>
+            <tr valign="top">
+              <td height="100" width="200"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Ecorax" target="_blank">Corax</a></td>
+              <td align="center" height="100" valign="top" width="150"><img src="../Img/corax-removebg-preview.png" width="190" height="170"></td>
+              <td height="100" width="400">Medieingenjörer<br><font face="garamond, Times New Roman, serif"><br>Programmet etablerades 1995 och någonstans innan 1998 grundades festeriet.<br><br> 1998: "Medieingenjörernas gamla festeri får sex nya medlemmar och döps till Corax"<br><br></font></td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="200"><font face="garamond, Times New Roman, serif"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/%7Emolbi" target="_blank">Bamse Est. 1998</a></font></td>
+              <td align="center" valign="top" height="100" width="150"><img src="../Img/bamsemarke.gif" width="170" height="200"></td>
+              <td height="100" width="400">Molekylärbiologer</td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="150"><font face="garamond, Times New Roman, serif"><a href="https://web.archive.org/web/20010714025735/http://www.ing.umu.se/elof" target="_blank">Elof</a></font></td>
+              <td align="center" height="100" width="150"><img src="../Img/elofrodstor-removebg-preview.png" width="140" height="140"></td>
+              <td height="100" width="400">Elektroingenjörer</td>
+            </tr>
+            <tr valign="top"> 
+              <td height="100" width="150"><font face="garamond, Times New Roman, serif"><a href="https://web.archive.org/web/20010714025735/http://www.ntk.umu.se/birger/bris" target="_blank">B.R.I.S.</a></font></td>
+              <td align="center" height="100" width="150"><img src="/web/20010714025735im_/http://www.ntk.umu.se/super/agenda/logos/bris.jpg" width="150" height="100"></td>
+              <td height="100" width="400">Biologer och Geovetar/Geoekologer</td>
+            </tr>
+            <tr valign="top">
+              <td height="100" width="150"><font face="garamond, Times New Roman, serif"><a href="https://web.archive.org/web/20010714025735/http://www.acc.umu.se/~halge" target="_blank">HÄLGE</a></font></td>
+              <td align="center" height="100" width="150"><img src="../Img/litenhalge.jpg" width="100" height="100"></td>
+          <td height="100" width="400">Miljö och hälsoskydd</td>
+            </tr>
+          </tbody></table>
+      </p>
+    </div>
+    <!--
+    <div class="w3-third w3-container">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center">AD</p>
+      <p class="w3-border w3-padding-large w3-padding-64 w3-center">AD</p>
+    </div>
+-->
+  </div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+    
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+
+</script>
+
+</body>
+</html>
